@@ -18,7 +18,7 @@ steps:
     checkLatest: true # boolea
 
   - task: NuGetInstaller@0
-  inputs:
+    inputs:
     solution: '**/*.sln' # string. Required. Path to solution or packages.config. Default: **/*.sln.
     #nugetConfigPath: # string. Path to NuGet.config. 
     restoreMode: 'restore' # 'restore' | 'install'. Required. Installation type. Default: restore.
